@@ -5,40 +5,46 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-<section id="bpagina">
+<body id="bpagina">
     <header>
-        <div class="topnav">
-
             <img id="logo1" src="./images/logoshazam.png" alt="logo">
-            <a class="bibliotheek" href="bibliotheek.html">Mijn bibliotheek</a>
-        </div>
+            <img src="images/shazamsearch.png" alt="searchicon" id="searchicon">
+            <a href="hamburger.html"><img src="images/hamburgershazam.png" id="hamburger" alt="hamburgericon"></a>
     </header>
     <main class="maincontent2">
-        <h1 id="eenplek">Al je Shazams op één plek</h1>
-        <p id="shazamapp">Meld je aan via je account op de Shazam-app </p>
-        <button class="apple">Inloggen met Apple</button>
-         <button class="apple">Inloggen met Google</button>
-        <img> 
-        <p id="ofemail">Of inloggen met e-mailadres</p>
-        <input type="text" name="" size="15" maxlength="30">
-       
+       <section class="bibliotheek">
+        <h1>Al je Shazams op één plek</h1>
+        <p>Meld je aan via je account op de Shazam-app </p>
+
+        <img src="./images/inloggenmetapple.png" alt="inloggenmetapple" class="inloggen">
+        <img src="./images/inloggenmetgoogle.png" alt="inloggenmetgoogle" class="inloggen">
+    
+        <p>Of inloggen met e-mailadres</p>
+        <input type="text" name="" size="30" maxlength="90" placeholder="E-mailadres">
+        </section>
         
-          <p> <a>Inloggen met Facebook > </a></p>
-        
-        
+        <a class="facebook"><p>Inloggen met Facebook >  
+        </p></a>
+
+        <section class="meldjeaan">
         <p>Heb je nog geen account?</p>
-        <p>Meld je aan via Shazam-app</p>
-        <img>
-        <p>Meer informatie over Shazam & privacy</p> 
-    </main>
-<section>
-    <footer class="footer">
+        <p id="aanmeldenapp">Meld je aan via Shazam-app</p>
+        </section>
+        <section class="meerinfo">
+        <img src="./images/meerinfoshazam.png" alt="tweepoppetjes">
+        <p><a id="meerinfo">Meer informatie over</a> Shazam & privacy</p> 
+        </section>
+     </main>
+       
+         <section class="draaiendlogo">
+        <img src="images/spinningshazam.png" alt="draaiendlogo">
+        </section>
+    
+    <footer>
 
-        <img id="logo2" src="images/logo2.png" alt="logo">
+        <img src="images/logo2.png" alt="logo">
 
-
-        <select name="taal" id="taal">
+        <select name="taal">
             <option value="Tjechisch">Tjechisch</option>
             <option value="Duits">Duits</option>
             <option value="Grieks">Grieks</option>
@@ -55,31 +61,24 @@
             <option value="Turks">Turks </option>
             <option value="Chinees">Chinees </option>
         </select>
-<section class="parentfooter">
-        <section class="childfooter">
-            <p class="titellink">Bedrijf</p>
+        <section>
+            <p>Bedrijf</p>
             <a href="">Over ons</a>
             <a href="#apps">Carriere</a>
             <a href="#parades">Help</a>
         </section>
-
-        <section class="childfooter">
-            <p class="titellink">Juridisch</p>
+        <section>
+            <p>Juridisch</p>
             <a href="">Voorwaarden</a>
             <a href="#apps">Privacy</a>
             <a href="#parades">Je gegevens beheren</a>
         </section>
-</section>
-      <section class="download">
-       <img src="images/googleplay.png" alt="googleplay">
-       <img src="images/googleplay.png" alt="appstore">
-    </section>
+       <img src="images/applestore.png" alt="googleplay" class="download">
+       <img src="images/googleplay.png" alt="appstore" class="download2">
+
         <p id="volg">Volg ons</p>
-      <img src="images/iconsshazam.png" alt="icons">
-        <p id="copyright">© Copyright 2020 Apple Inc. en haar dochterondernemingen | Verantwoordelijkheid van leveranciers</p>
+       <img src="images/iconsshazam.png" alt="icons">
+        <p id="copyright">© Copyright 2020 Apple Inc. en haar dochterondernemingen<br> | Verantwoordelijkheid van leveranciers</p>  
     </footer>
-    </section>
-    </section>
 </body>
-   
 </html>

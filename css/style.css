@@ -1,4 +1,6 @@
 /* CSS Document */
+/* ALGEMEEN */
+
 *,
 *::after,
 *::before {
@@ -16,7 +18,8 @@ body {
     height: 100%;
 }
 
-.topnav {
+/* HEADER */
+header {
     width: 100%;
     top: 0;
     color: #177BF6;
@@ -27,11 +30,21 @@ body {
     padding: 50px;
 }
 
+#hamburger {
+    width: 10%;
+    float: right;
+    margin-top: 22px;
+}
+
+#searchicon {
+    height: 60px;
+    margin-left: 380px;
+}
 #logo1 {
     width: 300px;
 }
 
-
+/* INDEX PAGINA */
 .maincontent {
     margin: 0 4rem;
 }
@@ -53,18 +66,62 @@ body {
     padding-top: 300px;
 }
 
-.image {
+.maincontent a {
+    color: #2487f4;
+    width: 60vw;
+    background-color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 60px 30px;
+    font-size: 16px;
+    font-weight: 650;
     display: block;
-    width: 80vw;
     margin: auto;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
 }
+
 
 main img {
     max-width: 100%;
-    height: auto
+    height: auto;
+    object-fit: fill;
 }
 
-#logo2 {
+/* shazam voor mac gedeelte/extra content*/
+.shazamvoordigitaal {
+    background-color: white;
+    font-family: sans-serif;
+    text-align: center;
+    
+}
+
+.shazamvoordigitaal h2 {
+    color: #08F;
+    margin: 0px;
+    padding-top: 80px;    
+}
+.shazamvoordigitaal img {
+    width: 100%;
+}
+
+#android {
+    background-color: #F9F9F9;
+}
+#googleplay {
+    width: 33%;
+}
+.shazamvoordigitaal p {
+    color: #4D4D4D;
+    font-size: 14px;
+    margin: 40px;
+}
+
+/* FOOTER */
+
+footer img{
     width: 50%;
     display: block;
     margin-left: auto;
@@ -72,7 +129,7 @@ main img {
     padding-top: 50px;
 }
 
-#taal {
+footer select {
     text-align: center;
     padding: 30px 20px 30px 20px;
     background-color: #141414;
@@ -92,41 +149,6 @@ main img {
     width: 50%;
     float: left;
 }
-
-a {
-    font-family: sans-serif;
-}
-
-body {
-    background-color: #2487f4;
-}
-
-.button_downloaden {
-    color: #2487f4;
-    width: 60vw;
-    background-color: white;
-    border-radius: 20px;
-    text-decoration: none;
-    padding: 60px 30px;
-    font-size: 16px;
-    font-weight: 650;
-    display: block;
-    margin: auto;
-    font-size: 50px;
-    text-align: center;
-    text-transform: uppercase;
-    /*
-    margin-left: 350px;
-    margin-top: 50px;
-    background-color: white;
-    font-family: sans-serif;
-    font-size: 50px;
-    color: #44B4F8;
-    padding: 40px;
-    border-radius: 20px 20px;*/
-}
-
-
 footer {
     position: relative;
     bottom: 0;
@@ -142,14 +164,17 @@ footer {
     font-size: 10px;
     margin-left: 200px;
     margin-right: 200px;
-    margin-top: 200px;
+    margin-top: 00px;
+    padding-bottom: 300px;
 }
 .childfooter {
     float: left;
     width: 50%;
     text-align: left;
-    padding-left: 130px;
-    font-size: 35px;
+    padding-left: 110px;
+    font: 16px;
+    padding-right: 45px;
+    padding-top: 45px;
 }
 .titellink {
     padding-bottom: 30px;
@@ -164,60 +189,132 @@ footer {
     padding-bottom: 20px;
 }
 
+/* ALGEMEEN*/
+a {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #2487f4;
+}
+
+/* BUTTON INDEX PAGINA */
+.button_downloaden {
+    color: #2487f4;
+    width: 60vw;
+    background-color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 60px 30px;
+    font-size: 16px;
+    font-weight: 650;
+    display: block;
+    margin: auto;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #141414;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+#copyright {
+    color: #a5a5a5;
+    font-size: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 00px;
+    padding-bottom: 300px;
+}
+footer section {
+    float: left;
+    width: 50%;
+    text-align: left;
+    padding-left: 110px;
+    font: 16px;
+    padding-right: 45px;
+    padding-top: 45px;
+}
+footer section p {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color: #a5a5a5;
+}
+footer section a {
+    display: block;
+    text-decoration: none;
+    color:white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.download {
+    display: inline;
+    width: 34vw;
+    margin: auto;
+    padding-left: 30px;
+    padding-bottom: 100px;
+    padding-top: 200px;
+    padding-right: 20px;
+}
+
+.download2 {
+    display: inline;
+    width: 38vw;
+    margin: auto;
+    padding-top: 120px;
+    padding-right: 20px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+}
+#volg {
+    color: #a5a5a5;
+    font-size: 20px;
+}
+
+/* ALGEMEEN */
 a { text-decoration: none; }
 a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
 a:focus { text-decoration: none; }
 a:hover, a:active { text-decoration: none; }
 
-.download {
-    display: inline;
-    width: 80vw;
-    margin: auto;
-  
-}
-#volg {
-    color: #a5a5a5;
-    font-size: 20px
-}
+/*BIBLIOTHEEKPAGINA */
 
 #bpagina {
     background-color: white;
+}/*body achtergrond*/
+
+.maincontent2 {
+    margin: 0 4rem;
+    text-align: center;
 }
-#eenplek {
+.bibliotheek {
     font-family: sans-serif;
+}
+.bibliotheek h1 {
     font-size: 70px;
     color: black;
     text-align: center;
     padding-top: 300px;
     padding-bottom: 70px;
 }
-.maincontent2 {
-    margin: 0 4rem;
-    text-align: center;
-}
-.maincontent2 p {
-    font-family: sans-serif;   
+
+.bibliotheek p {
+    color: #646464;
+    font-size: 14px;
+       margin-bottom: 20px;
 }
 
-#shazamapp {
-    color: grey;
-}
-.apple {
-    width: 50%;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 20px;
-    background-color: black;
-    color: white;
-    font-size: 40px;
-}
-#ofemail {
-    color: gray;
-    font-size: 13px
-}
-
-.maincontent2 input {
+input {
     width: 450px;
     margin: 20px;
     height: 70px;
@@ -228,3 +325,133 @@ a:hover, a:active { text-decoration: none; }
     color: #2487f4;
     padding-bottom: 20px;
 }
+
+.inloggen {
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 80px ;
+    width: 900px;
+}
+
+input {
+    width: 90%;
+    height: 130px;
+    border-radius: 4px;
+    border: 1px solid #e4e4e4;
+    font-size: 50px;
+    color: #646464;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.facebook {
+    margin-top: 50px;
+    display: inline;
+    color: #08f;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.meldjeaan {
+    font-size: 11px;
+    font-family: sans-serif;
+    margin: 200px;
+}
+
+#aanmeldenapp {
+    color: #08f;
+}/*voor de blauwe kleur van tekst meld je aan via shazam app*/
+
+.meerinfo {
+    font-size: 14px;
+    color: #646464;
+    margin-bottom: 80px;
+    font-family: sans-serif;
+}
+
+#meerinfo {
+    color: #08f;
+}
+/*SPINNING LOGO/ANIMATIE*/
+.draaiendlogo {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: #f5f5f5;
+}
+.draaiendlogo img {
+    max-width: 60%;
+    margin-left: 200px;
+}
+
+@keyframes draai-animation {
+    0% {
+        transform: scale(1);
+    }
+     50% {
+    transform:scale(1.5);
+  }
+    100% {
+        transform: scale(1);
+    }
+}
+
+section.draaiendlogo:hover img {
+    animation-name: draai-animation;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+/* HAMBURGER MENU (PAGINA)*/
+
+.navigatie {
+    background-color: #000;   
+}
+#logo3  {
+    width: 300px;
+    margin-left: 30px;
+}
+#kruis {
+    float: right;
+    margin: 80px 70px 20px 20px;
+    height: 50px;
+}
+ul {
+    margin-top: 150px;
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+}
+ul a:active {
+    text-decoration: underline;
+}
+ul li {
+    padding: 25px 0px 25px 55px;
+    margin: 40px; 
+}
+
+.applemusic {
+    background-color: #1a1a1a;
+    color: white;
+    font-family: sans-serif;
+    padding: 100px 20px 100px 20px;
+    margin: 20px;
+    border-radius: 1em;
+    text-align: center;
+    font-size: 25px;
+}
+.applemusic img {
+    margin-top: 30px;
+    width: 70%;
+}
+/* p kan niet in de goede maat? groot verschil tussen 24 en 25 px*/
+/*de javascript animatie*/
+.tel {
+    width: 50%;
+}
+
+

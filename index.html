@@ -3,36 +3,53 @@
 
 <head>
     <link rel="stylesheet" href="css/style.css">
+    <title>Shazam Home</title>
+    <script src="script.js"></script>
 </head>
 
 <body>
 
     <header>
-        <div class="topnav">
-
             <img id="logo1" src="./images/logoshazam.png" alt="logo">
-
-            <a class="bibliotheek" href="bibliotheek.html">Mijn bibliotheek</a>
-        </div>
+            <img src="images/shazamsearch.png" alt="searchicon" id="searchicon">
+            <a href="hamburger.html"><img src="images/hamburgershazam.png" id="hamburger" alt="hamburgericon"></a>
     </header>
 
     <main>
+       
         <section class="maincontent">
-            <h1 id="paginatitel">Herken binnen een paar seconden elke song</h1>
+            <h1>Herken binnen een paar seconden elke song</h1>
             <p>Shazam vertelt je welke muziek om je heen wordt gespeeld
             </p>
-            <a class="button_downloaden">Nu downloaden</a>
-            <section class="image">
-                <img src="images/shazamgoed.png" alt="mobiel">
+            <a onclick="validation();">Nu downloaden</a>
+            <img src="images/shazamgoed.png" alt="mobiel">
         </section>
+        
+        <section class="shazamvoordigitaal">
+            <h2>Shazam voor Mac</h2>  
+            <p>Leer je Mac een paar nieuwe trucjes. </p>
+            <p>
+            Ontdek, koop en deel je favoriete muziek en tv rechtstreeks op je computer met een gepersonaliseerde afspeellijst, terwijl je onderweg bent.
+            </p> 
+            <img src="images/laptopshazam.png" alt="macbookshazam">   
+        </section>
+        
+        <section id="android" class="shazamvoordigitaal">
+            <h2>Shazam Lite voor Android</h2>
+            <p>Our leanest app ever!</p>
+            <p>
+            You can now identify all the music that you want with our less than 1MB to download app. You can also Shazam music while offline, save your most recent results and share results with your friends - all regardless of network coverage.
+            </p>
+            <img src="images/googleplay.png" alt="googleplay" id="googleplay">
+            <img src="images/shazamtelefoontje.png" alt="androidtelefoon" id="androidtelefoon" class="tel">
         </section>
     </main>
 
-    <footer class="footer">
+    <footer>
 
-        <img id="logo2" src="images/logo2.png" alt="logo">
+        <img src="images/logo2.png" alt="logo">
 
-        <select name="taal" id="taal">
+        <select name="taal">
             <option value="Tjechisch">Tjechisch</option>
             <option value="Duits">Duits</option>
             <option value="Grieks">Grieks</option>
@@ -49,29 +66,28 @@
             <option value="Turks">Turks </option>
             <option value="Chinees">Chinees </option>
         </select>
-<section class="parentfooter">
-        <section class="childfooter">
-            <p class="titellink">Bedrijf</p>
+
+        <section>
+            <p>Bedrijf</p>
             <a href="">Over ons</a>
             <a href="#apps">Carriere</a>
             <a href="#parades">Help</a>
         </section>
-
-        <section class="childfooter">
-            <p class="titellink">Juridisch</p>
+        <section>
+            <p>Juridisch</p>
             <a href="">Voorwaarden</a>
             <a href="#apps">Privacy</a>
             <a href="#parades">Je gegevens beheren</a>
         </section>
-</section>
-      <section id="download">
-       <img src="images/googleplay.png" alt="googleplay">
-       <img src="images/googleplay.png" alt="appstore">
-    </section>
+    
+
+       <img src="images/applestore.png" alt="googleplay" class="download">
+       <img src="images/googleplay.png" onclick="TelBeweegt()" alt="appstore" class="download2">
+
         <p id="volg">Volg ons</p>
        <img src="images/iconsshazam.png" alt="icons">
-        <p id="copyright">© Copyright 2020 Apple Inc. en haar dochterondernemingen | Verantwoordelijkheid van leveranciers</p>
+        <p id="copyright">© Copyright 2020 Apple Inc. en haar dochterondernemingen<br> | Verantwoordelijkheid van leveranciers</p>
+        
     </footer>
 </body>
-
 </html>
