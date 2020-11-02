@@ -75,12 +75,8 @@ Mijn website ziet er goed uit. Hij is clean en lijkt op de daadwerkelijke shazam
 **Je focus:*surface plane* 
 
 **Je opdracht:*https://www.shazam.com/nl/charts/top-200/netherlands* 
-
-**Screenshot(s):*   images/shazam.PNG 
-                    images/shazam2.PNG
-                    images/shazam3.PNG  *
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/dummy-image.svg)
-**screenshot van de site: * images/desite.png *
+![desite](https://user-images.githubusercontent.com/70701728/97889300-801bbc80-1d2c-11eb-8d66-72d1f621dd55.png)
+![Schermafbeelding 2020-11-02 om 16 57 45](https://user-images.githubusercontent.com/70701728/97889347-91fd5f80-1d2c-11eb-8db5-1603b438a7cc.png)
 
 ![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/dummy-image.svg)
 
