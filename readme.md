@@ -76,8 +76,9 @@ Mijn website ziet er goed uit. Hij is clean en lijkt op de daadwerkelijke shazam
 
 **Je opdracht:*https://www.shazam.com/nl/charts/top-200/netherlands* 
 ![desite](https://user-images.githubusercontent.com/70701728/97889300-801bbc80-1d2c-11eb-8d66-72d1f621dd55.png)
-![Schermafbeelding 2020-11-02 om 16 57 45](https://user-images.githubusercontent.com/70701728/97889347-91fd5f80-1d2c-11eb-8db5-1603b438a7cc.png)
+![shazaminlog](https://user-images.githubusercontent.com/70701728/97889636-e1439000-1d2c-11eb-9c1d-f8250150900e.png)
 
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/dummy-image.svg)
 
-**Breakdown-schets(en):* images/breakdownschets.pdf *
+
+**Breakdown-schets(en):
+![breakdown](https://user-images.githubusercontent.com/70701728/97889807-16e87900-1d2d-11eb-8829-e9d0d6bf08c2.png)
