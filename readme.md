@@ -7,7 +7,7 @@ Focus: Ik kies ervoor om extra aandacht te besteden voor de surface laag.
 
 Mijn website:
 
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
+Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. 
 
 
 ## CodePen
@@ -66,10 +66,7 @@ images/shazamss5.png
 Dinsdag 20 oktober 11.45 uur. 
 
 ### Verslag van meeting
-
--na afloop snel uitkomsten vastleggen-
-
-
+Mijn website ziet er goed uit. Hij is clean en lijkt op de daadwerkelijke shazam site. Het enige wat er mist is een javascript DOM interactie. Dit moet ik nog toevoegen. Verder was mijn verslag niet compleet, de afbeeldingen waren niet goed zichtbaar. 
 
 ## Intake (week 1)
 
