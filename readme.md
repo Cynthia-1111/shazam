@@ -22,8 +22,12 @@ https://www.w3schools.com/default.asp
 
 ## Eindgesprek (week 7/8)
 Mijn website ziet er goed uit. Hij is clean en lijkt op de daadwerkelijke shazam site. Het enige wat er mist is een javascript DOM interactie. Dit moet ik nog toevoegen. Verder was mijn verslag niet compleet, de afbeeldingen waren niet goed zichtbaar. 
-**Screenshot(s):**
-
+![shazam2ss](https://user-images.githubusercontent.com/70701728/97888967-10a5cd00-1d2c-11eb-911d-586f9c49a6de.png)
+![shazamss](https://user-images.githubusercontent.com/70701728/97888969-113e6380-1d2c-11eb-890e-7f4c11ed2a39.png)
+![shazamss1](https://user-images.githubusercontent.com/70701728/97888970-11d6fa00-1d2c-11eb-84d1-741af88290c5.png)
+![shazamss3](https://user-images.githubusercontent.com/70701728/97888972-11d6fa00-1d2c-11eb-89d3-d5f7e9d45504.png)
+![shazamss4](https://user-images.githubusercontent.com/70701728/97888975-126f9080-1d2c-11eb-916a-324dfcd3b011.png)
+![shazamss5](https://user-images.githubusercontent.com/70701728/97888976-126f9080-1d2c-11eb-8e81-05513e38c1ae.png)
 
 
 
