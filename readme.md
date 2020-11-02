@@ -21,12 +21,9 @@ https://www.w3schools.com/default.asp
 
 
 ## Eindgesprek (week 7/8)
-
--dit ging goed & dit was lastig-
-
+Mijn website ziet er goed uit. Hij is clean en lijkt op de daadwerkelijke shazam site. Het enige wat er mist is een javascript DOM interactie. Dit moet ik nog toevoegen. Verder was mijn verslag niet compleet, de afbeeldingen waren niet goed zichtbaar. 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
 
 
 
